@@ -1,8 +1,8 @@
-function reqListener () {
-    console.log(this.responseText);
-  }
+// function reqListener () {
+//     console.log(this.responseText);
+//   }
   
-  var oReq = new XMLHttpRequest();
-  oReq.addEventListener("load", reqListener);
-  oReq.open("GET", "https://jsonplaceholder.typicode.com/todos");
-  oReq.send();
+//   var oReq = new XMLHttpRequest();
+//   oReq.addEventListener("load", reqListener);
+//   oReq.open("GET", "https://jsonplaceholder.typicode.com/todos");
+//   oReq.send();
